@@ -26,7 +26,7 @@ https://stormy-eyrie-37675.herokuapp.com/
 type "npm install" in terminal to install dependencies, required for this program to work
 
 ## Usage
-type "npm start" in terminal to run server, go to http://localhost:3000 to view the site
+type "npm start" in terminal to run server, go to http://localhost:3000 to view the site<br>
 alternatively just go to deployed link
 
 ## Contribution
