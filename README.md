@@ -6,6 +6,9 @@ While on the notes page you can enter in new notes.<br>
 Upon saving the notes will be saved to ./db/db.json and the page will update.<br>
 Upon deleting a note the note will be removed from ./db/db.json and the page will update.<br>
 
+## Deployed Link
+https://stormy-eyrie-37675.herokuapp.com/
+
 ## Screen shots
 ![A screen shot of entering new note](./screenshots/ss1.png)
 ![A screen shot of viewing a note.](./screenshots/ss2.png)
