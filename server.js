@@ -3,7 +3,7 @@ const { v4: uuidv4 } = require('uuid');
 const path = require('path');
 const fs = require('fs');
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const notes = require('./db/db.json');
 
 const app = express();
@@ -71,5 +71,5 @@ app.delete('/api/notes/:id', (req, res) => {
 });
 
 app.listen(PORT, () =>
-    console.log(`Example app listening at http://localhost:${PORT}`)
+    console.log(`Note taker app listening at http://localhost:${PORT}`)
 );
